@@ -1,0 +1,91 @@
+body {
+  font-family: 'Perpetua', serif;
+  background-image: url('https://media.nationalgeographic.org/assets/photos/957/798/480e8645-fc3f-48dc-b17a-e81038d3ee97_c158-0-1842-1333-r800x633.jpg?eff12d8bcc1b3653b5f5a0c5ed161938922d9af');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#title {
+  font-size: 3rem;
+}
+
+#description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  background-color: rgba(45, 0, 100, 0.9);
+  color: #f5fffa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgb(255, 215, 0);
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.input-radio,
+.input-checkbox {
+  margin-right: 10px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
